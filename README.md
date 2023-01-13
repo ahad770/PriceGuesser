@@ -29,13 +29,6 @@
 - Axios - version 0.27.2
 - BeautifulSoup - version 4.11.1
 
-## Features
-List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
-
-
 ## Screenshots
 ![Example screenshot](./img/gameplay.png)
 ![Example screenshot](./img/modal.png)
