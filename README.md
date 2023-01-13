@@ -47,7 +47,8 @@ The project is not currently hosted on a server. Use the following steps to run 
 1) Clone this repository
 2) Go to the terminal and type `cd frontend` and `npm install`
 3) Similarly with the backend type `cd ..`, `cd backend`, and `npm install`
-4) 
+4) Run the server.py file
+5) Type `cd ..`, `cd frontend`, and `npm start`
 
 
 ## Usage
