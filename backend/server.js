@@ -5,18 +5,9 @@ const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const { MongoClient } = require("mongodb");
 
-const uri =
-  "mongodb+srv://ahad770:sarah1@cluster0.lhf8nuj.mongodb.net/?retryWrites=true&w=majority";
+const uri = "";
 const client = new MongoClient(uri);
 app.use(express.json());
-
-// const cors = require('cors');
-// const corsOptions ={
-//     origin:'http://localhost:3000',
-//     credentials:true,
-//     optionSuccessStatus:200
-// }
-// app.use(cors(corsOptions));
 
 const statistics = [
   {

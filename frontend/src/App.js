@@ -15,7 +15,7 @@ function App() {
   let routes = useRoutes([
     { path: "/", element: <Home setGame={setGame} setShowScore={setShowScore} setGameMode={setGameMode} /> },
     {
-      path: "/classic",
+      path: "/game",
       element: (
         <GameEngine
           game={game}
@@ -40,8 +40,8 @@ function App() {
         />
       ),
     },
-    { path: "/login", element: <UserLogin /> },
-    { path: "/signup", element: <UserSignUp /> },
+    // { path: "/login", element: <UserLogin /> },
+    // { path: "/signup", element: <UserSignUp /> },
   ]);
 
   return (routes);

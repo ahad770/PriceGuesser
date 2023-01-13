@@ -7,17 +7,17 @@ function Intro({setGame, setShowScore, setGameMode}) {
   const handleClassicStartGame = () => {
       setGame(true);
       setShowScore(true);
-      navigate('/classic')
+      navigate('/game')
   };
 
-  const handleRoundStartGame = () => {
-    setGame(true);
-    setShowScore(true);
-    navigate('/round')
-};
+  // const handleRoundStartGame = () => {
+  //   setGame(true);
+  //   setShowScore(true);
+  //   navigate('/round')
+  // };
 
   return (
-    <div style={{marginLeft: 'auto', marginRight: 'auto', left:'0', right: '0', width: '30%'}}>
+    <div style={{marginLeft: 'auto', marginRight: 'auto', left:'0', right: '0', width: '30%', color: 'white'}}>
       <p>
         Welcome to PriceGuesser! Given a clothing item at random, you must guess
         its value (in $ USD). The closer your guess is to the actual value, the
@@ -34,9 +34,9 @@ function Intro({setGame, setShowScore, setGameMode}) {
             handleClassicStartGame();
           }}
         >
-          Classic
+          Start Game
         </Button>
-        <Button
+        {/* <Button
           variant="contained"
           style={{ background: "#2ecc71", width: '100%', marginTop: '1rem' }}
           onClick={() => {
@@ -45,7 +45,7 @@ function Intro({setGame, setShowScore, setGameMode}) {
           }}
         >
           Round
-        </Button>
+        </Button> */}
       </div>
 
       {/* <p>

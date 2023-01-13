@@ -14,7 +14,7 @@ function TopBar({ score, showScore, gameMode, userManagement }) {
   return (
     <S.TopBarContainer>
       <S.CustomHeader>PriceGuesser</S.CustomHeader>
-      {gameMode && <S.CustomHeader>{gameMode}</S.CustomHeader>}
+      {/* {gameMode} */}
       {showScore && (
         <S.ScoreContainer>
           <S.Score>
@@ -22,7 +22,7 @@ function TopBar({ score, showScore, gameMode, userManagement }) {
           </S.Score>
         </S.ScoreContainer>
       )}
-      {userManagement && (
+      {/* {userManagement && (
         <S.UserManagementContainer>
           <Button variant="contained" onClick={handleLogin}>
             Login
@@ -31,7 +31,7 @@ function TopBar({ score, showScore, gameMode, userManagement }) {
             Sign Up
           </Button>
         </S.UserManagementContainer>
-      )}
+      )} */}
     </S.TopBarContainer>
   );
 }
