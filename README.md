@@ -5,7 +5,6 @@
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
-* [Features](#features)
 * [Screenshots](#screenshots)
 * [Setup](#setup)
 * [Usage](#usage)
@@ -39,17 +38,12 @@
 The project is not currently hosted on a server. Use the following steps to run it in a local env.
 
 1) Clone this repository
-2) Go to the terminal and type `cd frontend` and `npm install`
-3) Similarly with the backend type `cd ..`, `cd backend`, and `npm install`
-4) Run the server.py file
-5) Type `cd ..`, `cd frontend`, and `npm start`
-
-
-## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
-`write-your-code-here`
+2) You will have to create a MongoDB account and connect it to the application
+3) Add images in MongoDB in structure of a collection named development -> items
+4) Go to the terminal and type `cd frontend` and `npm install`
+5) Similarly with the backend type `cd ..`, `cd backend`, and `npm install`
+6) Run the server.py file
+7) Type `cd ..`, `cd frontend`, and `npm start`
 
 
 ## Project Status
