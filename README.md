@@ -16,11 +16,8 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- PriceGuesser is spinoff of the popular web game GeoGuesser. Players have five round to guess the price of a given piece of clothing from fast fashion. The closer the guess is to the actual price the more points a player will score for that given round. After five round the total points are added up for the final score. Try it today!
+- This project gave me experience with frontend web development, backend RESTful-APIs, UX/UI design and implementation, web-scraping in python, database operations, and much more! 
 
 
 ## Technologies Used
@@ -45,9 +42,12 @@ List the ready features here:
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
+The project is not currently hosted on a server. Use the following steps to run it in a local env.
 
-Proceed to describe how to install / setup one's local environment / get started with the project.
+1) Clone this repository
+2) Go to the terminal and type `cd frontend` and `npm install`
+3) Similarly with the backend type `cd ..`, `cd backend`, and `npm install`
+4) 
 
 
 ## Usage
