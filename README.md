@@ -70,6 +70,8 @@ Room for improvement:
 
 To do:
 - More items need to be added to the database
+- Add User Management (keep track of high scores, public leaderboard)
+- Add different game modes (free mode)
 
 
 ## Acknowledgements
