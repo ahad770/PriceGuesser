@@ -1,6 +1,6 @@
 # PriceGuesser
 
-> Outline a brief description of your project.
+> PriceGuesser allows players to guess the price of five items. The closer the guess is to the actual price, the more points are earned. Try to beat your high score!
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -22,7 +22,7 @@
 
 ## Technologies Used
 - ReactJS - version 18.2.0
-- NodeJS - version 16.13.0
+- Flask - version 2.2.2
 - JSON Web Token (JWT) - version 8.5.1
 - ExpressJS - version 4.18.1
 - Material UI - version 5.8.2
@@ -37,7 +37,8 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./img/gameplay.png)
+![Example screenshot](./img/modal.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
