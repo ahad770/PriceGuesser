@@ -3,8 +3,7 @@ from pymongo import MongoClient
 from flask_cors import CORS
 from bson import json_util, ObjectId
 import json
-
-URI = ''
+import os
 
 app = Flask(__name__)
 CORS(app)
@@ -12,7 +11,7 @@ CORS(app)
 @app.route('/get_item', methods=["GET"])
 def get_item():
    print('getting all items...')
-   db = MongoClient(URI)
+   db = MongoClient(os.getenv('URI'))
    items = db.development.items
    items_to_game = []
    cursor = items.find()
